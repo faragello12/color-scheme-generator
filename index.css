@@ -14,7 +14,7 @@ html, body {
 #favcolor {  
     width: 20%; 
     height: 40px;
-    border: none;
+    border: 1px solid #a6a6a6;
 }
 #favcolor:focus,#choices:focus,#btn:focus {
     outline: none;
@@ -32,15 +32,16 @@ html, body {
     background-color: inherit;
     border: 1px solid #a6a6a6;
     border-radius: 4px;
+    color: #000;
     cursor: pointer;
 }
 #btn {
-    width: 40%;
+    width: 60%;
     height: 40px;
     border: none;
     background-color: #000;
     color: #fff;
-    font-size: 0.875rem;
+    font-size: 0.75rem;
     font-weight: 500;
     border-radius: 4px;
     cursor: pointer;
